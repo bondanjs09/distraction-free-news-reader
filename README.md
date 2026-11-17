@@ -6,7 +6,7 @@
 ## Steps
 1. Clone from GitHub repository.
 ```bash
-git clone 
+git clone https://github.com/bondanjs09/distraction-free-news-reader.git
 ```
 
 2. Go into the project directory 
@@ -22,4 +22,14 @@ python3 -m venv .venv
 4. Activate Python virtual environment 
 ```bash
 source .venv/bin/activate
+```
+
+5. Install all necessary dependencies
+```bash
+python -m pip install -r requirements.txt
+```
+
+6. Run the application 
+```bash
+python main.py
 ```
